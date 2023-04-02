@@ -1,0 +1,25 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile h1{
+    transition: all 1s;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.profile h3{
+    transition-delay:.5s;
+    /* transition-timing-function: ease; */
+    background-color: blanchedalmond;
+    text-align: justify;
+    padding: 5px 10px ;
+}
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    border: 1px solid #fff; 
+    box-shadow: -2px -10px 10px 10px rgba(141, 197, 234, 0.345); 
+}
